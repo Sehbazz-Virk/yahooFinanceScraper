@@ -1,0 +1,3 @@
+# basic requirements for getting page and parsing html
+beautifulsoup4
+requests
