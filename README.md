@@ -1,4 +1,4 @@
-quick script that currently only pulls trailing P/E ratio from well formatted inputs
+Quick script that currently only pulls trailing P/E ratio from well formatted inputs
 where the expected url exists on yahoo finance. Not robust or complete!
 
 HOW TO USE:
