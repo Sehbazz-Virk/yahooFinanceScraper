@@ -59,7 +59,7 @@ if __name__ == "__main__":
             if (ticker != "exit"):
                 page = getPage(ticker)
                 if (page.status_code != 200):
-                    print("An error occured. Page get results in " + page.status_code)
+                    print("An error occured. Page get results in " , page.status_code)
                 else:
                     if ('lookup' in page.url):
                         print("Ticker not found. make sure you did not spell it wrong")
