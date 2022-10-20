@@ -2,6 +2,11 @@ Quick script that currently only pulls trailing P/E ratio from well formatted in
 where the expected url exists on yahoo finance. Not robust or complete!
 
 HOW TO USE:
+
+Windows 10: NOTE - STILL BEING TESTED! BUGGY!
+* Run scraper.exe in the dist folder
+
+Not Windows 10: compile from source
 * make sure you have python3 installed
 * run the following command in this folder:
     * pip install -r requirements.txt
