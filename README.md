@@ -3,7 +3,7 @@ where the expected url exists on yahoo finance. Not robust or complete!
 
 HOW TO USE:
 
-Windows 10: NOTE - STILL BEING TESTED! BUGGY!
+Windows: NOTE - STILL BEING TESTED! BUGGY!
 * Run scraper.exe in the dist folder
 
 Not Windows 10: compile from source
