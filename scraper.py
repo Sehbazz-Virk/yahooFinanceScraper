@@ -61,8 +61,8 @@ if __name__ == "__main__":
                 if (page.status_code != 200):
                     print("An error occured. Page get results in " , page.status_code)
                 else:
-                    if ('lookup' in page.url):
-                        print("Ticker not found. make sure you did not spell it wrong")
+                    if (not('key-statistics' in page.url)):
+                        print("Ticker not found. It may not have a statistics page, make sure you did not spell it wrong")
                     else:
                         getStats(page.text)
     
